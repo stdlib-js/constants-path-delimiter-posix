@@ -20,6 +20,8 @@ limitations under the License.
 
 # Path Delimiter
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > POSIX path delimiter.
 
 <section class="installation">
@@ -100,6 +102,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/constants-path-delimiter-posix.svg
+[npm-url]: https://npmjs.org/package/@stdlib/constants-path-delimiter-posix
+
+[test-image]: https://github.com/stdlib-js/constants-path-delimiter-posix/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/constants-path-delimiter-posix/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-path-delimiter-posix/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/constants-path-delimiter-posix?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/constants-path-delimiter-posix
+[dependencies-url]: https://david-dm.org/stdlib-js/constants-path-delimiter-posix/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
