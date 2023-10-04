@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import PATH_DELIMITER_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-posix@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-path-delimiter-posix/tags). For example,
+
+```javascript
 import PATH_DELIMITER_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-posix@v0.1.1-esm/index.mjs';
 ```
 
@@ -70,7 +75,7 @@ var delimiter = PATH_DELIMITER_POSIX;
 <body>
 <script type="module">
 
-import PATH_DELIMITER_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-posix@v0.1.1-esm/index.mjs';
+import PATH_DELIMITER_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-posix@esm/index.mjs';
 
 var PATH = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin';
 var paths = PATH.split( PATH_DELIMITER_POSIX );
