@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import PATH_DELIMITER_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-posix@esm/index.mjs';
+import PATH_DELIMITER_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-posix@v0.2.2-esm/index.mjs';
 ```
 
 #### PATH_DELIMITER_POSIX
@@ -70,7 +70,7 @@ var delimiter = PATH_DELIMITER_POSIX;
 <body>
 <script type="module">
 
-import PATH_DELIMITER_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-posix@esm/index.mjs';
+import PATH_DELIMITER_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-delimiter-posix@v0.2.2-esm/index.mjs';
 
 var PATH = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin';
 var paths = PATH.split( PATH_DELIMITER_POSIX );
